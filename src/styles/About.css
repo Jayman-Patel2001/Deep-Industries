@@ -1,0 +1,80 @@
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutRightSideDescription {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  height: 100vh;
+}
+
+.about_rightSide {
+  display: flex;
+  flex-direction: column;
+  width: 57rem;
+  border-top: 3px solid gray;
+}
+
+.aboutRightSide_title {
+  color: green;
+  font-weight: bold;
+  height: 3rem;
+  font-size: 25px;
+  margin-top: 5px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 0 !important;
+}
+
+.aboutRightSide_title > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.aboutRightSide_info {
+  display: flex;
+  align-items: center;
+  min-height: 10rem;
+}
+
+.aboutRightSide_info > p {
+  margin-top: 0.5rem;
+  font-size: 16px;
+  width: 40rem;
+}
+
+.aboutRightSide_info > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.aboutCompany_img {
+  width: 250px;
+  height: 150px;
+  object-fit: contain;
+  margin-left: 2rem;
+}
+
+.whyUs_image {
+  height: 130px;
+  width: 250px;
+  opacity: 0.9;
+}
+
+.ourVision_img {
+  width: 250px;
+  height: 130px;
+  margin-left: 1rem;
+}
+
+.aboutCompany_img:hover,
+.ourVision_img:hover,
+.whyUs_image:hover {
+  transition: all 0.1s linear;
+  transform: scale(1.04);
+}
+
+img::selection {
+  user-select: none;
+}

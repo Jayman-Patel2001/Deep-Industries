@@ -1,0 +1,47 @@
+.product5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.product5_variety {
+  display: flex;
+  flex-direction: column;
+  min-height: 12rem;
+  border-top: 3px solid lightgray;
+}
+
+.product5_variety > p:first-child {
+  margin-top: 1rem;
+}
+
+.product5_variety > p {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1;
+}
+
+.product5_variety > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.inquiry_button_product5 {
+  margin-bottom: 2.5rem;
+}
+
+.inquiry_button_product5 > a {
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px !important;
+  font-size: 17px;
+  color: rgb(73, 139, 73);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.275);
+}
+
+.inquiry_button_product5 > a:hover {
+  transition: all 0.2s linear;
+  color: white;
+  background-color: rgb(87, 155, 87);
+}

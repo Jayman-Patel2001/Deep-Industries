@@ -1,0 +1,146 @@
+.product1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.product1_rightSide {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-top: 3px solid gray;
+  margin-top: 3rem;
+  width: 47rem;
+}
+
+.product1_rightSide > .title {
+  width: 100%;
+  font-weight: bold;
+  color: green;
+  font-size: 25px;
+  margin-left: 0 !important;
+  border-bottom: 1px solid lightgray;
+  height: 2.5rem;
+}
+
+.product1_rightSide > .title > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.product1_info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  width: 100%;
+  min-height: 14rem;
+}
+
+.product1_info > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.product1_info > img {
+  width: 250px;
+  height: 200px;
+  display: block;
+  object-fit: contain;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.product1_info > img:hover {
+  transition: all 0.1s linear;
+  transform: scale(1.05);
+}
+
+.product1_info > p {
+  font-size: 15px;
+  margin-left: 1rem;
+  line-height: 1.5;
+}
+
+.product1_info > p::first-letter {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.product1_table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.product1_table > .mainTitle {
+  font-size: 23px;
+  font-weight: bold;
+  border-bottom: 3px solid lightgray;
+  color: #050366c0;
+}
+
+.product1_table > .mainTitle::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.product1_table > .title1 {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 17px;
+  border-bottom: 1px solid lightgray;
+  height: 2rem;
+}
+
+.product1_table > .title1::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.product1_table > .mainTitle1 {
+  font-size: 23px;
+  font-weight: bold;
+  border-bottom: 3px solid lightgray;
+  color: #050366c0;
+  margin-top: 1rem;
+}
+
+.product1_table > .mainTitle1::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.product1_table > .title2 {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 17px;
+  border-bottom: 1px solid lightgray;
+  height: 2rem;
+}
+
+.product1_table > .title2::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.productInquiry_button {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.productInquiry_button > a {
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px !important;
+  font-size: 18px;
+  color: rgb(73, 139, 73);
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.275);
+}
+
+.productInquiry_button > a:hover {
+  transition: all 0.2s linear;
+  background-color: rgb(87, 155, 87);
+  color: white;
+}

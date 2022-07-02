@@ -1,0 +1,85 @@
+.homeRightSide_title {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 2rem;
+}
+
+.homeRightSide_title::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.homeRightSide_description {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+}
+
+.homeRightSide_firstPara {
+  display: flex;
+  flex-direction: row;
+  width: 55rem;
+  margin-top: 0.6rem;
+}
+
+.homeRightSide_firstPara > p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.homeRightSide_firstPara > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.homeRightSide_firstPara > p::first-letter {
+  font-size: 25px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.homeRightSide_firstPara > img {
+  width: 200px;
+  height: 170px;
+  margin-left: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.homeRightSide_firstPara > img::selection {
+  user-select: none !important;
+}
+
+.homeRightSide_firstPara > img:hover {
+  transition: all 0.1s linear;
+  transform: scale(1.05);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.homeRightSide_secondPara {
+  width: 56rem;
+}
+
+.homeRightSide_secondPara > p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 1.5rem;
+}
+
+.homeRightSide_secondPara > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.homeRightSide_secondPara > p::first-letter {
+  font-size: 25px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.homeRightSide_secondPara > p > span {
+  color: #03545f;
+  cursor: pointer;
+}

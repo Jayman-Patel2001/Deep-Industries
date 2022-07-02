@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+.inquiry {
+  display: flex;
+  flex-direction: row;
+  height: 82.5vh;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+}
+
+.inquiry > .leftSide {
+  width: 35vw;
+  height: 78vh;
+  margin-top: 1rem;
+  margin-left: 23rem !important;
+  background-color: rgb(73, 139, 73);
+  color: white;
+  margin-left: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.leftSide > .inquiry_title {
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+}
+
+.leftSide_firstRow,
+.leftSide_secondRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2.5rem;
+}
+
+.leftSide_nameSection,
+.leftSide_emailSection,
+.leftSide_phoneSection,
+.leftSide_companySection,
+.leftSide_productSection,
+.leftSide_addressSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftSide_nameSection {
+  margin-right: 2rem;
+}
+
+.leftSide_phoneSection {
+  margin-right: 2rem;
+}
+
+.leftSide_secondRow {
+  margin-top: 1.5rem;
+}
+
+.leftSide_thirdRow {
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+}
+
+.leftSide_fourthRow {
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+}
+
+.heading {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.mandatory {
+  color: red;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.392);
+  background-color: transparent;
+  margin-top: 0.5rem;
+  transition: all 0.2s linear;
+  width: 13rem;
+  color: white;
+}
+
+input::placeholder {
+  opacity: 0.6;
+  color: white;
+}
+
+input:focus::placeholder {
+  opacity: 1;
+}
+
+input:focus {
+  transition: all 0.2s linear;
+  border-bottom: 1px solid white;
+}
+
+.leftSide_productSection > textarea {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.392);
+  background-color: transparent;
+  margin-top: 0.5rem;
+  width: 28rem;
+  color: white;
+}
+
+.leftSide_productSection > textarea::placeholder {
+  opacity: 0.6;
+  color: white;
+}
+
+.leftSide_productSection > textarea:focus {
+  transition: all 0.2s linear;
+  border-bottom: 1px solid white;
+}
+
+.leftSide_productSection > textarea:focus::placeholder {
+  opacity: 1;
+}
+
+.leftSide_addressSection > textarea {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.392);
+  background-color: transparent;
+  margin-top: 0.3rem;
+  width: 28rem;
+  color: white;
+}
+
+.leftSide_addressSection > textarea::placeholder {
+  opacity: 0.6;
+  color: white;
+}
+
+.leftSide_addressSection > textarea:focus {
+  transition: all 0.2s linear;
+  border-bottom: 1px solid white;
+}
+
+.leftSide_addressSection > textarea:focus::placeholder {
+  opacity: 1;
+}
+
+.inquiry_button,
+.inquiry_resetButton {
+  width: 20% !important;
+  margin-left: 2.5rem;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.inquiry_button:hover {
+  transition: all 0.2s ease-in-out;
+  color: green;
+  background-color: #fff;
+}
+
+.inquiry_resetButton {
+  margin-top: 1.5rem;
+  background-color: #fff !important;
+  color: green !important;
+}
+
+.inquiry_resetButton:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.inquiry > .rightSide {
+  height: 78vh;
+  margin-top: 1rem;
+}
+
+.inquiry > .rightSide > img {
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.error {
+  color: rgba(245, 9, 9, 0.959);
+  font-size: 13px;
+}
+
+input[type="email"]:invalid {
+  border-bottom: 1px solid red;
+}

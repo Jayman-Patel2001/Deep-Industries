@@ -1,0 +1,132 @@
+.productList {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.product_List {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7.5rem;
+  margin-top: 1rem;
+  border-right: 3px solid gray;
+  width: 300px;
+}
+
+.product_title {
+  font-size: 23px;
+  font-weight: 700;
+  margin: 0rem 7rem;
+  margin-top: 2rem;
+}
+
+.product_title::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.product_info {
+  display: flex;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.product_info > p {
+  color: black;
+  font-size: 14px;
+}
+
+.product_info > p::selection {
+  user-select: none;
+}
+
+.product_info > p:hover {
+  color: green;
+}
+
+.product_info:hover .product_icon {
+  color: green !important;
+}
+
+.product_icon {
+  font-size: 16px !important;
+  color: rgba(0, 0, 0, 0.589);
+  margin-right: 0.3rem;
+}
+
+.contact_title {
+  font-size: 23px;
+  font-weight: 700;
+  margin: 0rem 7rem;
+}
+
+.contact_title::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.telephoneNo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7.5rem;
+  margin-top: 1rem;
+  border-right: 3px solid gray;
+  width: 300px;
+}
+
+.telephone_contact {
+  display: flex;
+  line-height: 1;
+}
+
+.contact_icon {
+  font-size: 14px !important;
+  color: black;
+  margin-right: 0.3rem;
+}
+
+.telephone_contact > p {
+  color: black;
+  font-size: 14px;
+}
+
+.telephone_contact > p::selection {
+  background-color: #b0dab9;
+  color: tomato;
+}
+
+.email_icon {
+  font-size: 19px !important;
+  color: rgba(0, 0, 0, 0.637);
+  margin-right: 0.3rem;
+}
+
+.email_list {
+  display: flex;
+  line-height: 1;
+}
+
+.email_list > a {
+  text-decoration: none;
+  color: black;
+}
+
+.email_list > a::selection {
+  user-select: none;
+}
+
+.email_list > a:hover {
+  color: green;
+}
+
+.email_list:hover .email_icon {
+  color: green !important;
+}
+
+.productList_activeClass {
+  font-weight: bold;
+}
+
+.productList_activeClass > .product_icon {
+  color: black !important;
+}

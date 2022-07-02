@@ -1,0 +1,220 @@
+.contact {
+  height: 70vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 18rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-bottom: 4.7rem;
+}
+
+.contact_info {
+  background-color: rgb(73, 139, 73);
+  height: 75vh;
+  width: 30vw;
+  color: white;
+}
+
+.contact_info > .title {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  font-size: 30px;
+}
+
+.contact_info > .title::selection {
+  background-color: #fff;
+  color: rgb(73, 139, 73);
+}
+
+.contact_info > .contact_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_addressSection,
+.contact_phoneSection,
+.contact_emailSection,
+.contact_webSection {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.contact_addressSection > .icon,
+.contact_phoneSection > .icon,
+.contact_emailSection > .icon,
+.contact_webSection > .icon {
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 85px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.icon > .location_icon {
+  font-size: 25px !important;
+}
+
+.contact_addressSection > p {
+  font-size: 16px;
+}
+
+.contact_addressSection > p::selection,
+.contact_addressSection > p > strong::selection {
+  background-color: #fff;
+  color: rgb(73, 139, 73);
+}
+
+.contact_phoneSection > .icon {
+  width: 42.5px !important;
+}
+
+.phone_numberSection > span,
+.email_mailSection > span {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.phone_numberSection > span::selection,
+.phone_numberSection > span > strong::selection {
+  background-color: #fff;
+  color: rgb(73, 139, 73);
+}
+
+.phone_numberSection > span > strong,
+.email_mailSection > span > strong {
+  margin-right: 0.3rem;
+  font-size: 15px !important;
+}
+
+.contact_emailSection {
+  width: 71% !important;
+  margin-top: 3rem !important;
+}
+
+.email_mailSection > span > a {
+  text-decoration: none;
+  color: white;
+}
+
+.email_mailSection > span > a:hover {
+  color: #050366c0;
+}
+
+.email_mailSection > span > strong::selection,
+.email_mailSection > span > a::selection {
+  background-color: #fff;
+  color: rgb(73, 139, 73);
+}
+
+.contact_emailSection > .icon > .email_icon {
+  color: white !important;
+  font-size: 25px !important;
+}
+
+.contact_webSection {
+  margin-top: 3rem !important;
+}
+
+.contact_webSection > .icon {
+  width: 42.5px !important;
+}
+
+.contact_webSection > p {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+
+.contact_webSection > p > strong {
+  font-size: 15px !important;
+  margin-right: 0.3rem;
+}
+
+.contact_webSection > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact_webSection > p > a:hover {
+  color: #050366c0;
+}
+
+.contact_webSection > p > strong::selection,
+.contact_webSection > p > a::selection {
+  background-color: #fff;
+  color: rgb(73, 139, 73);
+}
+
+.map_address {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: auto;
+  background-color: #fff;
+  text-align: left;
+  position: absolute;
+  top: 69%;
+  left: 49.5%;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.map_address > .title {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 0.4rem;
+  margin-left: 0.7rem !important;
+}
+
+.map_address > .address {
+  font-size: 13px;
+  margin-left: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+.map_address > a {
+  text-decoration: none !important;
+  font-size: 13px;
+  margin-left: 0.7rem;
+  margin-bottom: 0.7rem;
+  color: green;
+  font-weight: 500;
+}
+
+.locationIcon {
+  font-size: 18px !important;
+}
+
+.map_address > a:hover {
+  color: #050366c0;
+}
+
+.close_icon {
+  font-size: 17px !important;
+  margin-left: 4rem;
+  color: black !important;
+}
+
+.close_icon:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.2);
+  color: tomato !important;
+  font-weight: 600 !important;
+}

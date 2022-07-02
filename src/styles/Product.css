@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.product {
+  display: flex;
+  flex-direction: row;
+  height: 82.5vh;
+}
+
+.product_rightSide {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  border-top: 3px solid gray;
+  width: 56rem;
+  border-bottom: 1px solid lightgray;
+  height: 55vh;
+}
+
+.productRightSide_title {
+  color: green;
+  font-weight: bold;
+  height: 3rem;
+  font-size: 25px;
+  margin-top: 5px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 0 !important;
+}
+
+.productRightSide_info {
+  display: flex;
+  flex-direction: column;
+  min-height: 10rem;
+}
+
+.productInfo_description {
+  display: flex;
+  flex-direction: row;
+}
+
+.productPara_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.productPara_info > p {
+  margin-top: 0.5rem;
+  font-size: 14.5px;
+  width: 43rem;
+  line-height: 1.5;
+}
+
+.productInfo_description > img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.productInfo_description > img:hover {
+  transition: all 0.1s linear;
+  transform: scale(1.1);
+}
+
+.product_rightSideProductInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.product_rightSideinfo {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.product_rightSideinfo:hover .product_rightSideicon {
+  color: green !important;
+}
+
+.product_rightSideicon {
+  color: rgba(0, 0, 0, 0.589) !important;
+  font-size: 16px !important;
+  margin-right: 0.3rem;
+}
+
+.product_rightSideinfo > p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #050366c0;
+  font-size: 15px;
+}
+
+.product_rightSideinfo > p:hover {
+  color: green;
+}
